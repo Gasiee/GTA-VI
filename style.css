@@ -1,3 +1,4 @@
+
 body{
     width: 100%;
     height: auto;
@@ -87,6 +88,11 @@ body{
     color: rgb(246,246,246,1);
     
 }
+.jogosp{
+    width: 10px;
+    height: 5px;
+   
+}
 .jogos-console{
     width: 404px;
     height: 32px;
@@ -161,18 +167,8 @@ body{
     line-height: 30px;
     
 }
-.rgames{
-    width: 1160px;
-    height: 535px;
-    margin-left: 140px;
-    background-color: aqua;    
-}
-footer{
-    width: 1440px;
-    height: 238px;
-    
-    background-color: red;   
-}
+
+
 .ultimas{
     width: 1160px;
     height: 632px;
@@ -329,4 +325,82 @@ footer{
     color:  rgba(121, 121, 121, 1);
     margin-left: 15px;
     
+}
+.rgames{
+    width: 1160px;
+    height: 535px;
+    margin-left: 140px;
+    background-color: aqua;   
+    border-radius: 16px; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+    background-image: url("rgames-photo/fundo.svg");
+    position: relative;
+    
+}
+.rlauncher{
+    width: 342.21px;
+    height: 126.75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 90px;
+
+}
+.rlauncher p{
+    font-size: 41.57px;
+    font-weight: 800;
+    line-height: 49.89px;
+    color: black;
+    margin: 0;
+    
+}
+.rp{
+    width: 326px;
+    height: 96px;
+    margin-left: 90px;
+ 
+    
+}
+.rp p{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: -0.011em;
+    text-align: left;
+    margin: 0;
+    
+}
+.download{
+    width: 260px;
+    height: 63px;
+    border-radius: 8px;
+    background: rgba(252, 175, 23, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+
+    
+}
+.download p{
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 30px;
+    letter-spacing: -0.011em;
+    text-align: center;
+    
+}
+.rimg{
+    position: absolute;
+    right: 0; 
+}
+
+footer{
+    width: 1440px;
+    height: 238px;
+    
+    background-color: black;   
 }
