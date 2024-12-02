@@ -401,6 +401,53 @@ body{
 footer{
     width: 1440px;
     height: 238px;
+    display: flex;
+    align-items: center;
+    position: relative;
+
     
-    background-color: black;   
+}
+.footerp{
+    position: absolute;
+    left: 300px;
+}
+.footerp1{
+    color: white;
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+.footerp1 p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.011em;
+   color: rgba(177, 177, 177, 1);
+   
+}
+.footerp2 p{
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 19.5px;
+    letter-spacing: -0.011em;
+    color: rgba(177, 177, 177, 1);
+    
+    
+    
+}
+.footerimg{
+    position: absolute;
+    left: 200px;
+}
+.footerlogo{
+    width: 248px;
+    height: 24px;
+    top: 3104px;
+    left: 1052px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+    
 }
